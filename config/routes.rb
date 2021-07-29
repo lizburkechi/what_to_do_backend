@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   delete '/notes/:id', to: 'notes#destroy'
 
   # post "signup", to: "users#create"
-  # post "login", to: "auth#create"
+  post "/login", to: "auth#create"
+
 end
