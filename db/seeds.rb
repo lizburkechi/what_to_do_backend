@@ -1,18 +1,18 @@
-# puts "Deleting Activities..."
-# puts "Deleting Notes..."
-# Activity.destroy_all
-# Note.destroy_all
-# User.destroy_all
-# User.reset_pk_sequence
-# Activity.reset_pk_sequence
-# Note.reset_pk_sequence
+puts "Deleting Activities..."
+puts "Deleting Notes..."
+Activity.destroy_all
+Note.destroy_all
+User.destroy_all
+User.reset_pk_sequence
+Activity.reset_pk_sequence
+Note.reset_pk_sequence
 puts "Creating Activities..."
 puts "Creating Notes..."
 
 
-liz = User.create(username: "LizBurke", password_digest: "liz1")
-jacki = User.create(username: "JackiSprinkle", password_digest: "jacki1")
-vaish = User.create(username: "VaishPalavalli", password_digest: "vaish1")
+liz = User.create(username: "LizBurke", password: "liz1")
+jacki = User.create(username: "JackiSprinkle", password: "jacki1")
+vaish = User.create(username: "VaishPalavalli", password: "vaish1")
 
 
 activities = Activity.create([
