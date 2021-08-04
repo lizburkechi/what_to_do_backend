@@ -148,22 +148,22 @@ notes = Note.create!([
         activity_id: 1,
     },
     {
-        content: "Headspace.com offers a listen along audio track for visually impaired persons, however is not suitable for people with auditory impairment. An ASL meditation playlist is available at https://www.youtube.com/playlist?list=PL4WhbP0xwGB7syvK57c3sSW0B9gKQs7Px ",
+        content: "Headspace.com offers a listen along audio track for visually impaired persons, however is not suitable for people with auditory impairment.",
         user_id: User.second.id,
         activity_id: 2,
     },
     {
-        content: "All ATMs are marked in braille and can be found at the following locations: Box Office lobby near Gate 4, 100 level concourse at section 105/106 and 117/118, 200 level at section 220/221 and on the 300 level concourse at section 327/328. Each of the 46 concession stands are wheelchair accessible and elevators are located next to Gates 3 and 7 for you and a companion.",
+        content: "Each of the 46 concession stands are wheelchair accessible and elevators are located next to Gates 3 and 7.",
         user_id: User.third.id,
         activity_id: 3,
     },
     {
-        content: "Fully accessible bathrooms and parking garage with elevator to theatre level. Open spaces within the theates for wheelchairs but no handicap accessible / disabled aware seating outside the theater. Only tall chairs at tall tables.",
+        content: "Open spaces within the theates for wheelchairs but no handicap accessible / disabled aware seating outside the theater. Only tall chairs at tall tables.",
         user_id: User.fourth.id,
         activity_id: 4,
     },
     {
-        content: "Spotify only offers lyrics to select songs and is not fully accessible to the hearing impared. They have recently updated the app so that mobile devices set to 'Larger Text' will apply changes within the app to make text easier to read for the visdually impaired.",
+        content: "Only offers lyrics to select songs and is not fully accessible to the hearing impared.",
         user_id: User.second.id,
         activity_id: 5,
     },{
