@@ -10,7 +10,7 @@ puts "Creating Activities..."
 puts "Creating Notes..."
 
 
-liz = User.create(username: "LizBurke", password: "liz1")
+liz = User.create(username: "LizBurke", password: "lizburke1")
 jacki = User.create(username: "JackiSprinkle", password: "jacki1")
 vaish = User.create(username: "VaishPalavalli", password: "vaish1")
 tam = User.create(username: "TamDang", password: "tam1")
@@ -138,6 +138,12 @@ activities = Activity.create([
         participants: 2,
         link: "https://www.pizzeriaunodue.com/"
     },
+    {
+        activity_name: "Have a Craft Cocktail at the Whistler",
+        category: "bars",
+        participants: 1,
+        link: "https://whistlerchicago.com/"
+    },
 ])
 
 
@@ -227,7 +233,7 @@ notes = Note.create!([
         activity_id: 17,
     },
     {
-        content: "Elevator access is availble to the skydeck.",
+        content: "Elevator access is available to the skydeck.",
         user_id: User.third.id,
         activity_id: 18,
     },
